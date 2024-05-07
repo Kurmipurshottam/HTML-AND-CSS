@@ -1,0 +1,16 @@
+h1:hover{
+    color: blue;
+    background-color: yellowgreen;
+}
+h2:hover{
+    color: yellowgreen;
+    background-color: blue;
+}
+a:hover{
+    background-color: gray;
+    color: black;
+}
+a:active{
+    color:whitesmoke;
+    background-color: aqua;
+}

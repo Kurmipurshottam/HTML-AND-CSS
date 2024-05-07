@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <fieldset style="background-color: aqua;">
+        <legend>STUDENT REGISTRATION FORM</legend>
+        <table>
+            <form method="post">
+                <tr>
+                    <td><label for="">FIRST NAME</label></td>
+                    <td><input type="text">(max 30 characters a-z and A-Z)</td>
+                </tr>
+                <tr>
+                    <td><label for="">LAST NAME</label></td>
+                    <td><input type="text">(max 30 characters a-z and A-Z)</td>
+                </tr>
+                <tr>
+                    <td><label for="">DATE OF BIRTH</label></td>
+                    <td>
+                        <select name="" id="" >
+                            <option value="day" selected disabled>day</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="4">3</option>
+                            <option value="3">4</option>
+                            </select>
+                        <select name="" id="" selected>
+                            <option value="month" selected disabled>month</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                        <select name="" id="">
+                            <option value="year" selected disabled>year</option>
+                            <option value="1990">1990</option>
+                            <option value="1991">1991</option>
+                            <option value="1992">1992</option>
+                            <option value="1993">1993</option>   
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">EMAIL ID</label></td>
+                    <td><input type="email" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td><label for="">MOBILE NUMBER</label></td>
+                    <td><input type="text">(10 digit number)</td>
+                </tr>
+                <tr>
+                    <td><label for="">GENDER</label></td>
+                    <td>
+                        <label for="stu">male</label>
+                        <input type="radio" name="xyz" id="stu">
+                    
+                        <label for="mno">female</label>
+                        <input type="radio" id="mno" name="xyz">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">ADDRESS</label></td>
+                    <td><textarea name="" id="" cols="30" rows="10"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="">CITY</label></td>
+                    <td><input type="text">(max 30 characters a-z and A-Z)</td>
+                </tr>
+                <tr>
+                    <td><label for="">PIN CODE</label></td>
+                    <td><input type="text" name="" id="" minlength="0" maxlength="6">( 6 digit number)</td>
+                </tr>
+                <tr>
+                    <td><label for="">STATE</label></td>
+                    <td><input type="text" name="" id="">(max 30 characters a-z and A-Z)</td>
+                </tr>
+                <tr>
+                    <td><label for="">COUNTRY</label></td>
+                    <td><input type="text" value="india"></td>
+                </tr>
+                <tr>
+                    <td><label for="">HOBBIES</label></td>
+                    <td>
+                        <label for="">Drawing</label>
+                        <input type="checkbox" name="" id="">
+                        <label for="">Singing</label>
+                        <input type="checkbox" name="" id="">
+                        <label for="">Dancing</label>
+                        <input type="checkbox" name="" id="">
+                        <label for="">Sketching</label>
+                        <input type="checkbox" name="" id=""><br>
+                        <label for="">others</label>
+                        <input type="checkbox" name="" id="">
+                        <input type="text" name="" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">QUALIFICATION</label></td>
+                    <td>
+                        <table>
+                            <tr>
+                                <td>SI.NO.</td>
+                                <td>EXAMINATION</td>
+                                <td>BOARD</td>
+                                <td>Percentage</td>
+                                <td>Year of passing</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>class X</td>
+                                <td><input type="text" name="" id=""></td>
+                                <td><input type="text" name="" id=""></td>
+                                <td><input type="text" name="" id=""></td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>class XII</td>
+                                <td><input type="text" name="" id=""></td>
+                                <td><input type="text" name="" id=""></td>
+                                <td><input type="text" name="" id=""></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Graduation</td>
+                                <td><input type="text" name="" id=""></td>
+                                <td><input type="text" name="" id=""></td>
+                                <td><input type="text" name="" id=""></td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Masters</td>
+                                <td><input type="text" name="" id=""></td>
+                                <td><input type="text" name="" id=""></td>
+                                <td><input type="text" name="" id=""></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">COURSE<br>APPLIED FOR</label></td>
+                    <td>
+                        <label for="">BCA</label>
+                        <input type="radio" name="ASD" id="">
+                        <label for="">B.com</label>
+                        <input type="radio" name="ASD" id="">
+                        <label for="">B.sc</label>
+                        <input type="radio" name="ASD" id="">
+                        <label for="">B.A</label>
+                        <input type="radio" name="ASD" id="">
+                    </td>
+                </tr>
+                <table align="center">
+                    <tr>
+                        <td><input type="submit" name="" id=""></td>
+                        <td><input type="Reset" name="" id=""></td>
+                    </tr>
+                </table>
+            </form>
+        </table>
+    </fieldset>
+
+</body>
+</html>

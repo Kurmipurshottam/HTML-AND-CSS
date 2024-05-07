@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task-6</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+     <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .d1{
+            height: 20px;
+            background-color:#6fb4ab;
+            display: flex;
+        }
+        .d2{
+            height: inherit;
+            width: 70%;
+            background-color:#6fb4ab;
+        }
+        .a1,.fa-mobile-screen-button{
+            text-decoration: none;
+            margin-left: 130px;
+            color: white;
+        }
+        label{
+            color: white;
+        }
+        .d3{
+            height: inherit;
+            width: 30%;
+            background-color:#6fb4ab;
+        }
+        .a2{
+            color: white;
+            margin-left: 20px;
+        }
+        .fa-twitter{
+            padding-left: 240px;
+        }
+        .d4{
+            height: 65px;
+            background-color: black;
+            display: flex;
+        }
+        #d1{
+            position: sticky;
+            top: 10px;
+        }
+        .d5{
+            height: inherit;
+            width: 30%;
+            background-color:rgba(0,131,116,255);
+        }
+        h3{
+            margin-top: 18px;
+            margin-left: 130px;
+            color: white;
+        }
+        .d6{
+            height: inherit;
+            width: 70%;
+            background-color:rgba(0,131,116,255);
+        }
+        .a3{
+            text-decoration: none;
+            padding: 47px;
+            color: white;
+            overflow: hidden;
+        }
+        select{
+            background-color:rgba(0,131,116,255);
+            border-radius: 20px;
+            color: white;
+            height: 25px;
+            width: 90px;
+        }
+        .d7{
+            height: 650px;
+            background-color:rgba(0,131,116,255);
+            display: flex;
+            box-shadow: 0,0,2px,gray;
+            position: relative;
+        }
+        .d8{
+            height: inherit;
+            width: 50%;
+            background-color:rgba(0,131,116,255);
+        }
+        h1{
+            margin-top: 150px;
+            margin-left: 130px;
+            font-size: 60px;
+            color: white;
+            word-spacing: 2px;
+            letter-spacing: 2px;
+        }
+        h4{
+            margin-left: 130px;
+            font-size: 18px;
+            color: white;
+        }
+        #i1{
+            border-radius: 20px;
+            background-color:rgba(0,131,116,255);
+            margin-left: 130px;
+            height: 30px;
+            width: 100px;
+        }
+        .i2{
+            background-color:rgba(0,131,116,255);
+            border-radius: 20px;
+            color: white;
+            height: 30px;
+            width: 100px;
+        }
+        .a4{
+            text-decoration: none;
+            padding: 50px;
+            color: white;
+            overflow: hidden;
+        }
+        .d9{
+            height: inherit;
+            width: 50%;
+            background-color:rgba(0,131,116,255);
+        }
+        .m1{
+            height: 400px;
+            width: 600px;
+            margin-top: 100px;
+            margin-left: 50px;
+        }
+        .d10{
+            height: 200px;
+            width: 200px;
+            background-color:rgba(0,131,116,255);
+            margin-top: 550px;
+            position: absolute;
+            margin-left: 300px;
+            box-shadow: 0 0 10px rgb(123, 106, 106);
+            border-radius: 2px;
+        }
+        .d10:hover{
+            transform: rotate(50deg);
+        }
+/* lorem ipsum icon coding */
+        .fa-tv{
+            font-size: 50px;
+            color: white;
+            margin-top: 50px;
+            margin-left: 65px;
+        }
+        h5{
+            text-align: center;
+            font-size: 25px;
+            color: white;
+        }
+        a{
+            text-decoration: none;
+        }
+        .d11{
+            height: 200px;
+            width: 200px;
+            background-color:rgba(0,131,116,255);
+            margin-top: 550px;
+            position: absolute;
+            margin-left: 540px;
+            box-shadow: 0 0 10px rgb(123, 106, 106);
+            border-radius: 2px;
+        }
+        .d11:hover{
+            transform: rotate(50deg);
+        }
+/* sed ut perspiciatis coding start  */
+        .fa-gem{
+            font-size: 50px;
+            color: white;
+            margin-top: 50px;
+            margin-left: 75px;
+        }
+        .d12{
+            height: 200px;
+            width: 200px;
+            background-color:rgba(0,131,116,255);
+            margin-top: 550px;
+            position: absolute;
+            margin-left: 780px;
+            box-shadow: 0 0 10px rgb(123, 106, 106);
+            border-radius: 2px;
+        }
+        .d12:hover{
+            transform: rotate(50deg);
+        }
+/* magni dolores coding start  */
+        .fa-location-dot{
+            font-size: 50px;
+            color: white;
+            margin-top: 50px;
+            margin-left: 75px;
+        }
+        .d13{
+            height: 200px;
+            width: 200px;
+            background-color: rgba(0,131,116,255);
+            margin-top: 550px;
+            position: absolute;
+            margin-left: 1030px;
+            box-shadow: 0 0 10px rgb(123, 106, 106);
+            border-radius: 2px;
+        }
+        .d13:hover{
+            transform: rotate(50deg);
+        }
+/* nemo enim conding start  */
+        .fa-table-cells-large{
+            font-size: 50px;
+            color: white;
+            margin-top: 50px;
+            margin-left: 75px;
+        }
+        .d14{
+            height: 70px;
+            background-color:white;
+            margin-top: 200px;
+            padding-top: 10px;
+            text-align: center;
+        }
+        .p1{
+            margin-top: 20px;
+        }
+        .d15{
+            margin-top: 50px;
+            height: 900px;
+            background-color:white;
+            display: flex;
+        }
+        .d20{
+            height: inherit;
+            width: 10%;
+        }
+        .d21{
+            height: inherit;
+            width: 10%;
+        }
+        .d19{
+            height: inherit;
+            width: 10%;
+        }
+        .d16{
+            height: inherit;
+            width: 40%;
+            background-color:white;
+        }
+        .m2{
+            height: 606px;
+            width: 633px;
+            border-radius: 18px;
+        }
+        .p2{
+            font-size: 20px;
+            margin-left: 5px;
+        }
+        .d17{
+            height: inherit;
+            width: 40%;
+            background-color:white;
+        }
+        .fa-circle-check{
+            margin-left: 5px;
+            color: green;
+            font-size: 20px;
+        }
+        .p3{
+            font-size: 20px;
+            margin-left: 5px;
+        }
+        video{
+            height: 558px;
+            width: 632px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="d1">
+        <div class="d2">
+            <a href="" class="a1"> <i class="fa-regular fa-envelope"></i>&nbsp;&nbsp;contect@example.com</a>
+            <i class="fa-solid fa-mobile-screen-button"></i><label for="">&nbsp;+91&nbsp;1234567898</label>
+        </div>
+        <div class="d3">
+            <a href="" class="a2"><i class="fa-brands fa-twitter"></i></a>
+            <a href="" class="a2"><i class="fa-brands fa-facebook"></i></a>
+            <a href="" class="a2"><i class="fa-brands fa-instagram"></i></a>
+            <a href="" class="a2"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </div>
+    <div class="d4" id="d1">
+        <div class="d5">
+            <h3>impact</h3>
+        </div>
+        <div class="d6"><br>
+            <a href="" class="a3">Home</a>
+            <a href="#about us" class="a3">About us</a>
+            <a href="" class="a3">Services</a>
+            <a href="" class="a3">Portfollo</a>
+            <a href="" class="a3">Team</a>
+            <a href="" class="a3">Blog</a>
+            <select name="drop down" id="s1">
+                <option value="drop-down" selected disabled>drop-down</option>
+                <option value="rohit">rohit</option>
+                <option value="kohli">kohli</option>
+                <option value="dhoni">dhoni</option>
+            </select>
+            <a href="" class="a3">contect</a>
+        </div>
+    </div><hr>
+    <div class="d7">
+        <div class="d8">
+            <h1>welcome to impect</h1><br>
+            <h4>sed autem laudantium dolores. voluptatem itaque ea consequatur<br>eveniet. eum quas beatae cumque eum quaerat.</h4><br><br>
+            <input type="submit" name="" id="i1" class="i2" value="Get-start">
+            <a href="" class="a4"><i class="fa-regular fa-circle-play"></i>&nbsp;&nbsp;Watch video</a>
+        </div>
+        <div class="d9">
+            <img src="components/csstask.png" alt=" image not found" class="m1">
+        </div>
+        <div class="d10">
+            <a href="">
+                <i class="fa-solid fa-tv"></i>
+                <h5>lorem ipsum</h5>
+            </a>
+        </div>
+        <div class="d11">
+           <a href="">
+                <i class="fa-regular fa-gem"></i>
+                <h5>sed ut<br>perspiciatis</h5>
+           </a>
+        </div>
+        <div class="d12">
+            <a href="">
+                <i class="fa-solid fa-location-dot"></i>
+                <h5>magni dolores</h5>
+            </a>
+        </div>
+        <div class="d13">
+           <a href="">
+                <i class="fa-solid fa-table-cells-large"></i>
+                <h5>nemo enim</h5>
+           </a>
+        </div>
+    </div>
+    <div class="d14">
+        <h2 id="about us">About us</h2>
+        <p class="p1">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Sint, mollitia quasi ut fugiat sunt omnis tenetur deleniti fuga rerum?
+        </p>
+    </div>
+    <div class="d15">
+        <div class="d21"></div>
+        <div class="d16">
+            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, dolore? Adipisci, culpa.</h2>
+            <img src="components/about1.png" alt="" class="m2">
+            <p class="p2">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias provident aspernatur 
+                eligendi minus, unde, repellat inventore sit, earum iusto dolore assumenda in obcaecati 
+                commodi! Beatae voluptate eligendi iste tenetur eos.
+            </p><br>
+            <p class="p2">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt asperiores quia nobis
+                explicabo qui, deleniti quo perspiciatis eligendi libero porro! Ex nemo enim excepturi
+                nihil, perspiciatis quidem minus minima omnis tempora. Velit quasi expedita saepe
+                ratione? Id voluptates repellendus placeat voluptas blanditiis accusamus deleniti doloribus.
+            </p>
+        </div>
+        <div class="d19"></div>
+        <div class="d17">
+            <p class="p2">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Eveniet maiores reprehenderit veritatis molestias.
+            </p><br>
+            <p class="p3"><i class="fa-solid fa-circle-check"></i>&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, labore.</p>
+            <p class="p3"><i class="fa-solid fa-circle-check"></i>&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            <p class="p3"><i class="fa-solid fa-circle-check"></i>&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Porro et possimus vero, eveniet sit doloremque illo maxime nemo cum fuga. Fuga recusandae quasi impedit voluptas sunt. Adipisci doloremque 
+                 ipsam quos cumque repudiandae at aliquid magnam!
+            </p><br>
+            <p class="p3">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati cumque odio eius ex, vitae,
+                dicta labore maxime nesciunt beatae fuga recusandae, a dolore culpa aspernatur?
+                Exercitationem quibusdam dolorum itaque eius maxime deserunt saepe pariatur quam, 
+                laborum nihil vel? Nisi aspernatur provident natus perspiciatis quisquam alias!
+            </p>
+            <video src="components/presur kookar.mp4" poster="components/about2.png" controls></video>
+        </div>
+        <div class="d20"></div>
+    </div>
+</body>
+</html> 
